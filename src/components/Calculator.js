@@ -15,6 +15,21 @@ class Calculator extends React.Component {
     calculations: []
   }
 
+  componentDidMount(){
+    setInterval(() => {
+      let tenCalculationsArray = [];
+     APIs.fillCalculations().then(allCalcs =>{
+      let fullCalculationsArray = allCalcs;
+      console.log(fullCalculationsArray)
+      let tenObjectsArray = fullCalculationsArray.slice((fullCalculationsArray.length-10))
+      tenCalculationsArray = tenObjectsArray.map((currentValue) => {
+        return currentValue.Calc + ", ";
+      })
+      this.setState({calculations : tenCalculationsArray})
+    })
+  }, 1000);
+  }
+
 calculate = () => {
   this.setState({currentCalc : ""})
   let valArr = ["",""];
