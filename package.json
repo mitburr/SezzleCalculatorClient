@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://mitburr.github.io/SezzleCalculatorClient/",
-  "proxy": "https://glacial-bayou-59948.herokuapp.com/",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
