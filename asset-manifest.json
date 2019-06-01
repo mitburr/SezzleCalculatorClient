@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SezzleCalculatorClient/static/css/main.34de6062.chunk.css",
+    "main.js": "/SezzleCalculatorClient/static/js/main.21685529.chunk.js",
+    "main.js.map": "/SezzleCalculatorClient/static/js/main.21685529.chunk.js.map",
+    "runtime~main.js": "/SezzleCalculatorClient/static/js/runtime~main.cb7e604a.js",
+    "runtime~main.js.map": "/SezzleCalculatorClient/static/js/runtime~main.cb7e604a.js.map",
+    "static/js/2.190eadcc.chunk.js": "/SezzleCalculatorClient/static/js/2.190eadcc.chunk.js",
+    "static/js/2.190eadcc.chunk.js.map": "/SezzleCalculatorClient/static/js/2.190eadcc.chunk.js.map",
+    "index.html": "/SezzleCalculatorClient/index.html",
+    "precache-manifest.201448f2bc64b7deea0932b656b1ccd5.js": "/SezzleCalculatorClient/precache-manifest.201448f2bc64b7deea0932b656b1ccd5.js",
+    "service-worker.js": "/SezzleCalculatorClient/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/SezzleCalculatorClient/static/css/main.34de6062.chunk.css.map"
+  }
+}
